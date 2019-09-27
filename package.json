@@ -4,7 +4,8 @@
   "description": "learning path creation web service",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/easy-deep-learning/programming-learning-path/issues"
   },
-  "homepage": "https://github.com/easy-deep-learning/programming-learning-path#readme"
+  "homepage": "https://github.com/easy-deep-learning/programming-learning-path#readme",
+  "dependencies": {
+    "@logux/server": "^0.5.1",
+    "migrate-mongoose": "^4.0.0",
+    "mongoose": "^5.7.1"
+  }
 }
