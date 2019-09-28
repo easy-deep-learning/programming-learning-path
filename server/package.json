@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon"
+    "start-server": "nodenv --exec nodemon"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,9 @@
     "@logux/server": "^0.5.1",
     "migrate-mongoose": "^4.0.0",
     "mongoose": "^5.7.1"
+  },
+  "devDependencies": {
+    "node-env-run": "^3.0.2",
+    "nodemon": "^1.19.2"
   }
 }
