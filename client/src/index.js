@@ -26,8 +26,6 @@ const store = createStore(reducer, window.__REDUX_DEVTOOLS_EXTENSION__())
 badge(store.client, { messages: badgeMessages, styles: badgeStyles })
 log(store.client)
 
-console.log("store.client.nodeId: ", store.client.nodeId); // eslint-disable-line
-
 ReactDOM.render(
     <Provider store={store}><App /></Provider>,
     document.getElementById('root'),

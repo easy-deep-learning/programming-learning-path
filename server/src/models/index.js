@@ -16,5 +16,5 @@ dbConnection.once('open', function () {
 
 module.exports = {
   User,
-  connection,
+  dbConnection,
 }
