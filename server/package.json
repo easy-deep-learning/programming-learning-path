@@ -20,7 +20,7 @@
   "dependencies": {
     "@logux/server": "^0.5.1",
     "migrate-mongoose": "^4.0.0",
-    "mongoose": "^5.7.1"
+    "mongoose": "^5.7.5"
   },
   "devDependencies": {
     "node-env-run": "^3.0.2",
